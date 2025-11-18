@@ -6,8 +6,8 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			title: 'GrassProject',
+			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/grassproject' }],
 			sidebar: [
 				{
 					label: 'Guides',
@@ -23,4 +23,6 @@ export default defineConfig({
 			],
 		}),
 	],
+	site: 'https://grassproject.github.io',
+  	base: '/docs',
 });
